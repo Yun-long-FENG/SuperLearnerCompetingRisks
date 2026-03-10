@@ -27,7 +27,7 @@ This script demonstrates how to use the main Super Learner functions for both co
 
 ---
 
-### `function/`
+### `functions/`
 
 This folder contains all functions needed for the project:
 
