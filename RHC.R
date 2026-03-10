@@ -119,7 +119,6 @@ library(mgcv) #if use GAM or GAM_Spline
 #library(randomForestSRC) #if use Random Forrest
 
 source("functionC.R")
-source("data_graph.R")
 
 libraryC <- c("coxph","km","gam","weibull","gam_s")
 
@@ -150,7 +149,6 @@ library(xgboost)  # if use xgboost
 library(caret) # if use knn or random forest
 
 source("functionD.R")
-source("data_graph.R")
 
 time_intervals <- seq(0, 30, length.out = 30 + 1) 
 libraryD <- c("VGAM.mn","xgboost","knn","vgam_s")
