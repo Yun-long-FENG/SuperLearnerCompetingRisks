@@ -1,0 +1,11 @@
+.Rhistory
+.RData
+.Rproj.user/
+*.log
+*.aux
+*.pdf
+Simulation/
+Ignore/
+PIC/
+RR RD.R
+data/
