@@ -41,12 +41,14 @@ This folder contains all functions needed for the project:
 ### `simulation.R`
 This script reproduces the simulation results presented in the paper and supplementary materials.  
 You can flexibly switch between different data-generating settings by modifying the annotated sections in the script. The comparison methods are also included.
+
 ---
 
 ## Case Study: RHC Data
 Because the Clalit EHR dataset used in the paper is not publicly available, we include an alternative case study using the **public RHC dataset**.  
 We also compare our method with the **causalCmprsk** package to illustrate performance differences.
 Since the RHC dataset is much smaller than the Clalit EHR dataset, we did not use data splitting to construct confidence intervals.
+
 ---
 
 
