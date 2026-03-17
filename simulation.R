@@ -258,7 +258,7 @@ for (i in 1:100){
 }
 
 time <- rep(0,100)
-for (i in 1:1000){
+for (i in 1:100){
   set.seed(123+i)
   data <- W2dataU_D_H(1000)  
   time[i] <- max(data$Time)
